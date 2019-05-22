@@ -12,6 +12,7 @@ import java.util.regex.Pattern;
  * @version 4
  *
  */
+@SuppressWarnings("serial")
 public class Profesor implements Serializable {
 
 	private static final String ER_TELEFONO = "^[69][0-9]{8}$";

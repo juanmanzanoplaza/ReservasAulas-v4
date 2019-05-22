@@ -2,14 +2,11 @@ package org.iesalandalus.programacion.reservasaulas.vista.iugrafica.controladore
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import javax.naming.OperationNotSupportedException;
-
 import org.iesalandalus.programacion.reservasaulas.controlador.IControladorReservasAulas;
 import org.iesalandalus.programacion.reservasaulas.modelo.dominio.Aula;
 import org.iesalandalus.programacion.reservasaulas.vista.iugrafica.utilidades.Dialogos;
+import org.junit.rules.DisableOnDebug;
 
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -76,6 +73,8 @@ public class ControladorInsertarAula implements Initializable {
 			aulas.add(aula);
 			Dialogos.mostrarDialogoInformacion("Nueva Aula", "Aula insertada correctamente");
 			escenario.close();
+		} catch (NumberFormatException n) {
+			Dialogos.mostrarDialogoInformacion("Nueva aula", "El número de puestos del aula no es correcto");
 		} catch(IllegalArgumentException | OperationNotSupportedException e) {
 			Dialogos.mostrarDialogoError("Aula", e.getMessage());
 		}

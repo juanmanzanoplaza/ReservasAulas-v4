@@ -2,13 +2,7 @@ package org.iesalandalus.programacion.reservasaulas.vista.iugrafica.controladore
 
 import java.net.URL;
 import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
-import java.util.Observable;
 import java.util.ResourceBundle;
-import javax.naming.OperationNotSupportedException;
-
 import org.iesalandalus.programacion.reservasaulas.controlador.IControladorReservasAulas;
 import org.iesalandalus.programacion.reservasaulas.modelo.dominio.Aula;
 import org.iesalandalus.programacion.reservasaulas.modelo.dominio.Profesor;

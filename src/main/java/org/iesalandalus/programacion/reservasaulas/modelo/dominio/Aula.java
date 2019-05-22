@@ -10,6 +10,7 @@ import java.util.Objects;
  * @version 4
  *
  */
+@SuppressWarnings("serial")
 public class Aula implements Serializable {
 
 	private static final float PUNTOS_POR_PUESTO = 0.5f;

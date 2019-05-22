@@ -16,6 +16,7 @@ import java.util.Objects;
  * @version 4
  *
  */
+@SuppressWarnings("serial")
 public class PermanenciaPorHora extends Permanencia implements Serializable {
 
 	private static final int PUNTOS = 3;

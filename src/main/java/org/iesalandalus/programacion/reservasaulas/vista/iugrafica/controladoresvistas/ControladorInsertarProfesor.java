@@ -2,9 +2,6 @@ package org.iesalandalus.programacion.reservasaulas.vista.iugrafica.controladore
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import javax.naming.OperationNotSupportedException;
 
 import org.iesalandalus.programacion.reservasaulas.controlador.IControladorReservasAulas;

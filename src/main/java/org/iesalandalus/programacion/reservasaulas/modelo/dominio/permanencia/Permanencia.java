@@ -14,6 +14,7 @@ import java.time.format.DateTimeParseException;
  * @version 4
  *
  */
+@SuppressWarnings("serial")
 public abstract class Permanencia implements Serializable {
 
 	protected LocalDate dia;

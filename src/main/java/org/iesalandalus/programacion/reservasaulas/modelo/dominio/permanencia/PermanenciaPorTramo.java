@@ -14,6 +14,7 @@ import java.util.Objects;
  * @version 4
  *
  */
+@SuppressWarnings("serial")
 public class PermanenciaPorTramo extends Permanencia implements Serializable {
 
 	private static final int PUNTOS = 10;
